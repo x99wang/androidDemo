@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="pri.wx.sqlbrite2demo.MainActivity">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="8dp"
+            tools:layout_editor_absoluteX="8dp">
+        <Button
+                android:text="Save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/btnSave"/>
+
+        <Button
+                android:text="Delete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/btnDelete"/>
+        <Button
+                android:text="DeleteAll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/btnDeleteAll"/>
+        <Button
+                android:text="Update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/btnUpdate"/>
+        <Button
+                android:text="Get"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/btnGet"/>
+        <Button
+                android:text="GetAll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/btnGetAll"/>
+
+        <TextView
+                android:id="@+id/tvAction"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:padding="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
